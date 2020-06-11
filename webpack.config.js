@@ -49,7 +49,10 @@ module.exports = {
   // 在webpack的各个生命周期执行一些操作，比如编译结束压缩代码
   plugins: [new HtmlWebpackPlugin({
     template: "src/index.html",
-    title: "😂"
+    title: "2333",
+    scriptLoading: 'defer',
+    minify: false,  // 是否压缩，生产环境默认压缩
+    hash: true  //
   })]
 
 }
