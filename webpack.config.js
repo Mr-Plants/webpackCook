@@ -57,4 +57,4 @@ module.exports = {
 
 }
 // webpack默认值支持js和json模块，需要打包其他资源需要引入专门的module（loader）
-// html-webpack-plugin
+// html-webpack-plugin  生成
